@@ -1,0 +1,10 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "@tsconfig/esm",
+	"compilerOptions": {
+		"lib": ["DOM", "ES2022"],
+		"moduleResolution": "node",
+		"module": "ESNext",
+		"target": "ESNext"
+	}
+}

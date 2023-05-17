@@ -1,0 +1,22 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"name": "ml-cad-search",
+	"version": "0.1.0",
+	"description": "A VanillaJS website for demonstrating ML CAD search.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "vite",
+		"build": "vite build",
+		"format": "prettier --write ."
+	},
+	"keywords": [],
+	"author": "James Gopsill and Aman Kukreja",
+	"license": "ISC",
+	"devDependencies": {
+		"@tsconfig/esm": "^1.0.3",
+		"prettier": "^2.8.8",
+		"typescript": "^5.0.4",
+		"vite": "^4.3.6"
+	}
+}
